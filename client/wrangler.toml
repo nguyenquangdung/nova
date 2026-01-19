@@ -1,0 +1,8 @@
+name = "nova"
+compatibility_date = "2024-01-01"
+compatibility_flags = ["nodejs_compat"]
+
+[pages_build_config]
+build_command = "npm run build"
+destination = "dist"
+root_dir = "."
